@@ -8,7 +8,8 @@ python-dotenv>=0.5.1
 pandas
 numpy
 matplotlib
-
+scikit-learn
 dvc
 jupyterlab
 boto3
+argparse
