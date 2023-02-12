@@ -28,11 +28,11 @@ train_and_evaluate:
           - estimators.ElasticNet.Params.alpha
           - estimators.ElasticNet.Params.l1_ratio
 
-       metrics:
-          - reports/Scores.json
-          cache: false
-          - reports/Params.json
-          cache: false
+      # metrics:
+       #   - reports/Scores.json
+        #  cache: false
+         # - reports/Params.json
+          #cache: false
 
-       outs:
-         -models/model.joblib
+       #outs:
+        # -models/model.joblib
