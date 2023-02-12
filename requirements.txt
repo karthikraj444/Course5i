@@ -13,3 +13,4 @@ dvc
 jupyterlab
 boto3
 argparse
+mlflow
